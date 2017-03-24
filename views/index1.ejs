@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,user-scalable=yes" />
+    <meta name="format-detection" content="telephone=no" />
+    <title><%= title %></title>
+    <style type="text/css"></style>
+    <link href="/stylesheets/base.css" rel="stylesheet" type="text/css">
+    <link href="/stylesheets/share.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <div class="qq_share">
+        <div id="player-container">
+            <video width="100%">
+      </video>
+        </div>
+    </div>
+    <script src="/javascripts/libs.js"></script>
+    <script type="text/javascript">
+        $(function() {
+            preloadStart();
+            var headImg = "/images/1.jpg"
+                var src = "http://jp.nuomi.me/hls/aaa.m3u8";
+                console.log(src);
+                $('video').append('<source type="application/x-mpegURL" src="' + src + '"/>')
+                    .height($('video').width())
+                    .attr('poster', headImg)
+                    .on('error', function(e) {
+                        console.log(e);
+                        $('#player-container').html('<img src="' + headImg + '"/>');
+                        $('.host_rest').show();
+                    }).click(function() {
+                        this.play();
+                    });
+            preloadEnd();
+        });
+    </script>
+</body>
+
+</html>

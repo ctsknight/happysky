@@ -1,0 +1,28 @@
+@charset "utf-8";
+body{width:100%;margin-left:auto;margin-right:auto}
+.live_logo,.small_font{text-shadow:0 1px 0 rgba(0,0,0,.4)}
+.qq_share{float:left;width:100%;position:relative}
+.qq_share .stop_botton{position:absolute;width:30%;float:left;left:35%;top:40%;text-align:center}
+.live_photo,.small,.small_list_img1{position:relative;float:left}
+.live_photo{width:33%;background-color:#E7E7E7}
+.live_photo img{width:100%;height:100%}
+.small{width:100%;background-color:#FFF;margin-top:1%}
+.small_list_img1{width:33%;margin:0 0 0 .3%;height:0;padding-bottom:33%;background-color:#E7E7E7}
+.live_logo{position:absolute;right:2%;top:2%;width:2em;height:1em;line-height:1em;text-align:center;font-size:.6em;color:#FFF;border-radius:.2em;border:1px solid #FFF;box-shadow:0 1px 0 rgba(0,0,0,.4);background-color:rgba(0,0,0,.1)}
+.small_font_left,.small_font_right{font-size:1em;line-height:1em;color:#FFF}
+.small_font{position:absolute;width:100%;font-family:PingFangSC-Light,Helvetica,Arial,sans-serif;background:-webkit-linear-gradient(bottom,rgba(0,0,0,0),rgba(0,0,0,0));top:0}
+.small_font_left{float:left;margin-left:2%;width:40%}
+.small_font_right{position:absolute;margin-top:2%;float:right;text-align:right;width:98%;margin-right:2%;top:0}
+.host_rest,.rest_font{float:left;width:100%}
+.host_rest{height:100%;background-color:#333;position:absolute;left:0;background-color:rgba(0,0,0,.5);top:0;display:none}
+.rest_font{margin-top:40%;color:#FFF;text-align:center}
+video{background-color:#000}
+.xiazhai{width:100%;position:fixed;left:0;top:0;z-index:100;padding-top:2%;padding-bottom:2%;background-color:rgba(0,0,0,.6)}
+.icon{float:left;margin-left:3%;width:10%}
+.icon_name{float:left;width:50%;margin-left:.5em}
+.icon_name2{float:left;width:100%;color:#FFF;font-size:1.2em;height:1em;margin-top:.3em}
+.icon_name3{float:left;width:100%;color:#f0efef;font-size:.7em;margin-top:.3em}
+.icon img{height:2em;width:2em}
+.enter_room2{background-color:#CCC;float:right;height:1.6em;font-size:.9em;line-height:1.6em;border:1px solid #999;border-radius:.3em;margin-top:.3em;margin-right:3%;text-align:center;width:12%}
+.enter_room{background-color:#CCC;float:right;height:1.6em;font-size:.9em;line-height:1.6em;border:1px solid #999;margin-right:3%;border-radius:.3em;margin-top:.3em;text-align:center;width:12%}
+#mobile,#pc{display:none}

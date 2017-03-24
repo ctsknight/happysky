@@ -1,0 +1,34 @@
+html{font-size:100%}
+body,html{height:100%;margin:0;-webkit-user-select:none;user-select:none}
+button,html,input,select,textarea{font-family:Helvetica,Arial,sans-serif}
+img{border:none;vertical-align:top;width:100%;overflow:hidden}
+a{color:#444;text-decoration:none;-webkit-touch-callout:none;-webkit-user-select:none}
+.button1:active{color:#FFF;background-color:#CCC}
+.button2:active{filter:alpha(opacity=80);transform:scale(1.15,1.15);transition:all .2s ease}
+.share_top{background-color:rgba(50,48,58,.98);float:left;width:100%;top:0;position:fixed;z-index:10;padding-top:.2em}
+.share_top_left{float:left;position:relative;width:21%;height:2.8em;line-height:2.8em;margin-top:1em;margin-left:2%;color:#333;text-align:left}
+.share_top_middle,.share_top_middle2{float:left;position:relative;text-align:center}
+.share_top_left img{width:1em;height:1em;vertical-align:middle}
+.share_top_middle{width:55%;height:2.4em;line-height:2.4em;margin-top:1.3em}
+.share_top_middle2{width:34%;height:2em;line-height:2em;margin-top:1em;border-radius:.5em;border:1px solid #FF7F00}
+.share_top_right,.share_top_right2{float:right;position:relative;width:19%;height:2.8em;line-height:2.8em;margin-top:1em;text-align:right;margin-right:3%}
+.share_top_right{color:#FFF}
+.share_top_right2{color:#333}
+.share_top_middle_text2,.share_top_middle_text3{font-size:1.2em;color:#333;float:left}
+.share_top_middle_text{font-size:1.1em;color:#FFF}
+.share_top_middle_text2{width:49%;text-align:center}
+.share_top_right img{height:1.2em;width:1.2em;vertical-align:middle}
+.share_top_right2 img{height:1.3em;width:1.3em;vertical-align:middle}
+.preload .cover{width:100%;height:100%;position:fixed;background:#EFEFF4;top:0;left:0;z-index:500}
+.preload .spinner{margin:50% auto;width:.8em;height:.8em;position:relative;z-index:1000}
+.preload .cube1,.preload .cube2{width:100%;height:100%;border-radius:50%;background-color:#888;position:absolute;top:0;left:0;animation:preload_cubemove 1.8s infinite ease-in-out}
+.preload .cube2{animation-delay:-.9s}
+@keyframes preload_cubemove{25%{transform:translateX(.8em) scale(.5)}
+50%{transform:translateX(.8em) translateY(.8em)}
+75%{transform:translateX(0) translateY(.8em) scale(.5)}
+}
+.preload .out{animation:preload_out .8s ease 0s 1 both;background:#EFEFF4}
+@keyframes preload_out{0%{opacity:1}
+100%{opacity:0}
+}
+.toast{position:fixed;width:50%;top:45%;margin-left:25%;color:#fff;font-family:Calibri;font-size:1em;text-align:center;background-color:rgba(0,0,0,.6);z-index:1000;line-height:4em}
